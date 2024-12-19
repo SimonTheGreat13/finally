@@ -8,6 +8,6 @@ function showSlide(index) {
 setInterval(() => {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
-}, 5000);
+}, 4000);
 
 showSlide(currentIndex);
